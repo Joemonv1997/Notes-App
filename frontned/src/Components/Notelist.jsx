@@ -6,7 +6,6 @@ const Notelist = ({key,note}) => {
         const getNotes=async()=>{
             const response=await fetch(`/api/note/${id}`)
             const data=await response.json()
-            console.log(data);
     
         }
         getNotes()
@@ -15,8 +14,6 @@ const Notelist = ({key,note}) => {
     <div>
         <div key={key}>
         <h1>{note.title}</h1>
-
-        <button onClick={()=>onSubmitHandler(note.id)}>View</button>
 
         </div>
     </div>
