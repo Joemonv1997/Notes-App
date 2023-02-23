@@ -1,5 +1,6 @@
-from django.urls import path
+from django.urls import path,re_path
 from connect.views import index
+
 urlpatterns=[
-    path("",index,name="main html")
+    re_path(r'.*',index)
 ]
