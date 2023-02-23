@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  align-items: center;
+  text-align: center;
+
+}
+#error{
+   color: red;
+   align-items: center;
+   
+}
